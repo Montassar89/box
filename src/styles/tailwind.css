@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .bannerHMobile  {
+    height: 586px
+  }
+  .itemStyle  {
+    background:
+    url(https://www.boxful.com/images/cny2021/locker-m1.jpg) no-repeat center bottom;
+    height: 100%
+  }
+  .itemStyleTow  {
+    background:url(https://www.boxful.com/images/cny2021/valet-m1.jpg) no-repeat center bottom;
+    height: 100%
+  }
+  .textStyle  {
+    max-width: 280px
+  }
+  
+  .buttonOneStyle  {
+    width: 248px;
+    line-height: 48px;
+    background: #fef9e5 url(https://www.boxful.com/images/hero-e/up.svg) no-repeat 92% center;
+    color: #333;
+    transition: box-shadow .4s;
+    background-size: 20px !important;
+    padding-left: 50px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    text-align: left;
+  }
+  .buttonTowStyle  {
+    width: 248px;
+    line-height: 48px;
+    background: #e9f8f7 url(https://www.boxful.com/images/hero-e/up.svg) no-repeat 92% center;
+    color: #333;
+    transition: box-shadow .4s;
+    background-size: 20px !important;
+    padding-left: 50px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    text-align: left;
+  }
+  .home-banner-e-wrapper{
+    height: 575px; 
+    padding-top: 64px
+  }
+  .locker-bg{
+    background: url(https://www.boxful.com/images/cny2021/locker.jpg) no-repeat 100% 50%
+  }
+  .main-info{
+    max-width: 480px 
+  }
+  .cny-sol{
+    color: #f27d80
+  }
+  .link{
+    background: url(https://www.boxful.com/images/cny2021/btn_en.png);
+    background-size: cover;
+    height: 47px;
+    width: 236px;
+    margin: 14px;
+  }
+  .hero-btn-wrap{
+    max-width: 400px; 
+    margin: 13px auto 0
+  }
+  .btn-locker{
+    width: 190px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 16px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    background: #fef9e5 url(https://www.boxful.com/images/hero-e/left.svg) no-repeat 15px center;
+  
+    font-weight: bold;
+    color: #333;
+    transition: box-shadow .4s;
+    background-size: 20px !important;
+    padding-left: 50px;
+    margin-right: 4px
+  }
+  .btn-locker-2{
+    width: 190px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 16px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    background: #e9f8f7 url(https://www.boxful.com/images/hero-e/right.svg) no-repeat 160px center;
+  
+    font-weight: bold;
+    color: #333;
+    transition: box-shadow .4s;
+    background-size: 20px !important;
+    padding-left: 18px;
+    margin-right: 4px
+  }
+  .valet-bg{
+    background: url(https://www.boxful.com/images/cny2021/valet.jpg) no-repeat 0 50%
+  }
+  
+  .icon-setting {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+  }
+  @media (max-width: 768px){
+  
+    .bg-transparent-banner{
+        background-color: transparent !important;
+    }
+  }
+  @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+  @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+  
+  .bg-yellow-main{
+    background-color: #fef9e5;
+  }
+  .bg-grey-main{
+    background-color: #fafafa;
+  }
+  .bg-yellow-main-btn{
+    background-color: #fef5d8;
+  }
+  .bg-yellow-sec-btn{
+    background-color: #f8d340;
+  }
+  .bg-grey-main-btn{
+    background-color: #f3f3f3;
+  }
+  .bg-green-sec{
+    background-color: #d3ebea;
+  }
+  .bg-green-main{
+    background-color: #e9f8f7;
+  }
+  .main-color{
+    color: #00c4b3;
+  }
+}
