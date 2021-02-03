@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 
-import styled from 'styled-components';
-
 import CardOneModal from './header/CardOneModal';
 import CardThreeModal from './header/CardThreeModal';
 import CardTowModal from './header/CardTowModal';
@@ -16,10 +14,6 @@ import Modal from './header/Modal';
 import OpenModalButton from './header/OpenModalButton';
 import OurServicesIcon from './header/OurServicesIcon';
 import SimpleLink from './header/SimpleLink';
-
-const ModalContent = styled.div`
-  margin: 10px;
-`;
 
 const Header = () => {
   const [isOpen, toggle] = useState(false);
@@ -118,11 +112,11 @@ const Header = () => {
                   isOpen={isOpen}
                   handleClose={() => handlOpenModal(false)}
                 >
-                  <ModalContent>
+                  <div className="m-4">
                     <CardOneModal />
                     <CardTowModal />
                     <CardThreeModal />
-                  </ModalContent>
+                  </div>
                 </Modal>
               </div>
               <div
